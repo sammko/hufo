@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hufo"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Čavoj <samuel@cavoj.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+python-dotenv = "^0.19.2"
+click = "^8.0.4"
+click-log = "^0.3.2"
+esprima = "^4.0.1"
+beautifulsoup4 = "^4.10.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+hufo = "hufo:main"
